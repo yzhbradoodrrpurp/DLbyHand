@@ -1,0 +1,14 @@
+config:
+  hyperparameters:
+    learning_rate: 1e-3
+    batch_size: 32
+    epochs: 20000
+    weight_decay: 1e-5
+  other:
+    training_path: 'train.csv'
+    test_path: 'test.csv'
+    trained_weights_path: 'model_weights.pth'
+    loss_curve_path: 'loss_curve.png'
+    comparison_path: 'predicted_vs_actual.png'
+    test_predictions_path: 'test_predictions.csv'
+    device: 'cpu'
